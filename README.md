@@ -48,7 +48,8 @@ with its onboard camera and guide itself towards it autonomously.
 | Status | Task |
 |:---:|---|
 | 🟢 | Airframe design and 3D printing |
-| 🟢 | Power distribution board design and manufacturing |
+| 🟢 | Power distribution board: design and PCB manufacturing |
+| 🟠 | Power distribution board: component soldering and electrical testing |
 | 🟠 | Flight controller and control laws (PID, control-surface mixing matrices) |
 | 🟠 | Target detection on RDK X5 and ROS 2 integration |
 | ⚪ | Final assembly and first flight |
