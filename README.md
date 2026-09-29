@@ -1,8 +1,9 @@
 # Aconit AD-1 – Autonomous Flying-Wing Interceptor Drone
 
 <p align="center">
-  <img src="images/aconit.jpg" alt="Aconit AD-1" width="700">
+  <img src="https://github.com/user-attachments/assets/56a29e9d-9187-46d5-bf79-1e52fbd4dcd0" alt="Aconit AD-1" width="700">
 </p>
+<p align="center"><i>Airframe during assembly – printed sections currently being bonded.</i></p>
 
 Aconit AD-1 is an autonomous flying-wing drone designed to detect and intercept other drones.
 It is developed as a fourth-year engineering project at Polytech Nice Sophia (Robotics and Autonomous Systems),
@@ -30,17 +31,6 @@ with its onboard camera and guide itself towards it autonomously.
 | Flight control | In-house control laws: PID controllers and control-surface mixing matrices, without an off-the-shelf autopilot |
 | Embedded vision | Real-time target detection with YOLO on an RDK X5 board, integrated with ROS 2 |
 
-<p align="center">
-  <img src="images/architecture.png" alt="System architecture" width="600">
-</p>
-
-## Gallery
-
-<p align="center">
-  <img src="images/cad.jpg" alt="CAD model" width="320">
-  <img src="images/printed-wing.jpg" alt="3D-printed airframe" width="320">
-</p>
-
 ## Project Status
 
 🟢 Completed  ·  🟠 In progress  ·  ⚪ Planned
@@ -48,6 +38,7 @@ with its onboard camera and guide itself towards it autonomously.
 | Status | Task |
 |:---:|---|
 | 🟢 | Airframe design and 3D printing |
+| 🟠 | Airframe assembly: printed parts currently half bonded |
 | 🟢 | Power distribution board: design and PCB manufacturing |
 | 🟠 | Power distribution board: component soldering and electrical testing |
 | 🟠 | Flight controller and control laws (PID, control-surface mixing matrices) |
