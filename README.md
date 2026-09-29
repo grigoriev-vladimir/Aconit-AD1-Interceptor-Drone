@@ -14,15 +14,21 @@ The growing use of small drones raises new security challenges for airports, pub
 This project explores a low-cost interception approach: a fast, fixed-wing platform able to detect a target drone
 with its onboard camera and guide itself towards it autonomously.
 
+## Key Figure
+
+| Parameter | Value |
+|---|---|
+| Maximum interception speed | approx. 150–160 km/h (design estimate, not yet flight-tested) |
+
 ## System Overview
 
 | Subsystem | Description |
 |---|---|
 | Airframe | Double-delta flying wing, designed in Fusion 360 and 3D-printed, powered by an electric ducted fan |
 | Power electronics | Custom power distribution board designed in KiCad |
-| Flight controller | ESP32-S3 based board with inertial measurement unit, barometer and radio link (in progress) |
-| Flight control | In-house control laws: PID controllers and control-surface mixing, without an off-the-shelf autopilot |
-| Embedded vision | Real-time target detection with YOLO on an RDK X5 board, with ROS 2 integration (in progress) |
+| Flight controller | ESP32-S3 based board with inertial measurement unit, barometer and radio link |
+| Flight control | In-house control laws: PID controllers and control-surface mixing matrices, without an off-the-shelf autopilot |
+| Embedded vision | Real-time target detection with YOLO on an RDK X5 board, integrated with ROS 2 |
 
 <p align="center">
   <img src="images/architecture.png" alt="System architecture" width="600">
@@ -37,11 +43,15 @@ with its onboard camera and guide itself towards it autonomously.
 
 ## Project Status
 
-- [x] Airframe design and 3D printing
-- [x] Power distribution board design and manufacturing
-- [ ] Flight controller and control laws
-- [ ] Target detection on RDK X5 and ROS 2 integration
-- [ ] Final assembly and first flight
+🟢 Completed  ·  🟠 In progress  ·  ⚪ Planned
+
+| Status | Task |
+|:---:|---|
+| 🟢 | Airframe design and 3D printing |
+| 🟢 | Power distribution board design and manufacturing |
+| 🟠 | Flight controller and control laws (PID, control-surface mixing matrices) |
+| 🟠 | Target detection on RDK X5 and ROS 2 integration |
+| ⚪ | Final assembly and first flight |
 
 ## Tools and Technologies
 
